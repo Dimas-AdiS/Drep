@@ -99,7 +99,8 @@ void loop() {
       if(data == 'd'){digitalWrite(2,HIGH); Serial.print("dd");}
 
          if(data == 'd'){digitalWrite(2,HIGH); Serial.print("dd");}
-   
+         if(data == 'd'){digitalWrite(2,HIGH); Serial.print("dd");}
+
     }
 // rfrrfrfrf
   }
