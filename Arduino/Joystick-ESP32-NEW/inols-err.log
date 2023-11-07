@@ -1,0 +1,1320 @@
+
+
+
+
+
+
+
+Started logging.
+19:40:27.217166 Language server launched with arguments:
+19:40:27.217166   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:40:27.217166   arg[1] = -clangd
+19:40:27.217166   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:40:27.217166   arg[3] = -cli-daemon-addr
+19:40:27.217166   arg[4] = localhost:1026
+19:40:27.217166   arg[5] = -cli-daemon-instance
+19:40:27.217166   arg[6] = 1
+19:40:27.217166   arg[7] = -fqbn
+19:40:27.217166   arg[8] = arduino:avr:mega:cpu=atmega2560
+19:40:27.217166   arg[9] = -skip-libraries-discovery-on-rebuild
+19:40:27.217166   arg[10] = -board-name
+19:40:27.218167   arg[11] = "Arduino Mega or Mega 2560"
+19:40:27.218167   arg[12] = -no-real-time-diagnostics
+19:40:27.218167   arg[13] = -log
+19:40:27.218167   arg[14] = -logpath
+19:40:27.218167   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:40:27.219381 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:40:27.223395 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+19:40:27.223395 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:40:27.223395 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1177960042[0m
+19:40:27.223395 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1177960042\sketch[0m
+19:40:27.223395 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1769921800[0m
+19:40:27.232682 IN Elapsed: 7.2894ms
+19:40:27.232682 [92mIDE --> LS REQU initialize 0[0m
+19:40:27.234694 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:40:27.235380 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:40:27.235892 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:40:27.235892 [32mIDE <-- LS RESP initialize 0[0m
+19:40:27.235892 OUT Elapsed: 0s
+19:40:27.237475 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:40:27.237475 [96mINIT --- : [93mread-locked[0m[0m
+19:40:27.237475 [96mINIT --- : [93mread-unlocked[0m[0m
+19:40:27.248983 IN Elapsed: 13.0904ms
+19:40:27.248983 [92mIDE --> LS NOTIF initialized[0m
+19:40:27.248983 [92m                 initialized: Notification is not propagated to clangd[0m
+19:40:27.248983 IN Elapsed: 0s
+19:40:27.248983 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:40:27.249626 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:40:27.249626 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:40:27.249626 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:40:27.547985 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server1769921800",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:40:27.557496 [96mINIT --- : build stdout:[0m
+19:40:27.557496 [96mINIT --- : [0m
+19:40:27.557496 [96mINIT --- : build stderr:[0m
+19:40:27.557496 [96mINIT --- : [0m
+19:40:27.557496 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1769921800 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:40:27.557496 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:40:27.557496 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:40:27.691342 Language server launched with arguments:
+19:40:27.691342   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:40:27.691342   arg[1] = -clangd
+19:40:27.691342   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:40:27.691342   arg[3] = -cli-daemon-addr
+19:40:27.691342   arg[4] = localhost:1026
+19:40:27.691342   arg[5] = -cli-daemon-instance
+19:40:27.691342   arg[6] = 1
+19:40:27.691342   arg[7] = -fqbn
+19:40:27.691342   arg[8] = arduino:avr:mega:cpu=atmega2560
+19:40:27.691342   arg[9] = -skip-libraries-discovery-on-rebuild
+19:40:27.691342   arg[10] = -board-name
+19:40:27.691342   arg[11] = "Arduino Mega or Mega 2560"
+19:40:27.691342   arg[12] = -no-real-time-diagnostics
+19:40:27.691342   arg[13] = -log
+19:40:27.691342   arg[14] = -logpath
+19:40:27.691342   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:40:27.691342 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:40:27.696043 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+19:40:27.696043 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:40:27.696043 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server735353884[0m
+19:40:27.696043 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server735353884\sketch[0m
+19:40:27.696043 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2794860986[0m
+19:40:27.696581 IN Elapsed: 0s
+19:40:27.696581 [92mIDE --> LS REQU initialize 0[0m
+19:40:27.699021 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:40:27.699021 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:40:27.700353 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:40:27.700353 [96mINIT --- : [93mread-locked[0m[0m
+19:40:27.700353 [96mINIT --- : [93mread-unlocked[0m[0m
+19:40:27.701329 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:40:27.701329 [32mIDE <-- LS RESP initialize 0[0m
+19:40:27.701329 OUT Elapsed: 0s
+19:40:27.705743 IN Elapsed: 4.4144ms
+19:40:27.706368 [92mIDE --> LS NOTIF initialized[0m
+19:40:27.706368 [92m                 initialized: Notification is not propagated to clangd[0m
+19:40:27.706368 IN Elapsed: 0s
+19:40:27.706877 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:40:27.706877 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:40:27.706877 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:40:27.706877 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:40:28.014272 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server2794860986",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:40:28.019074 [96mINIT --- : build stdout:[0m
+19:40:28.019074 [96mINIT --- : [0m
+19:40:28.019074 [96mINIT --- : build stderr:[0m
+19:40:28.019074 [96mINIT --- : [0m
+19:40:28.019074 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2794860986 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:40:28.019074 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:40:28.019074 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:40:28.105835 Language server launched with arguments:
+19:40:28.105835   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:40:28.105835   arg[1] = -clangd
+19:40:28.105835   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:40:28.105835   arg[3] = -cli-daemon-addr
+19:40:28.105835   arg[4] = localhost:1026
+19:40:28.105835   arg[5] = -cli-daemon-instance
+19:40:28.105835   arg[6] = 1
+19:40:28.105835   arg[7] = -fqbn
+19:40:28.105835   arg[8] = arduino:avr:mega:cpu=atmega2560
+19:40:28.105835   arg[9] = -skip-libraries-discovery-on-rebuild
+19:40:28.105835   arg[10] = -board-name
+19:40:28.105835   arg[11] = "Arduino Mega or Mega 2560"
+19:40:28.105835   arg[12] = -no-real-time-diagnostics
+19:40:28.105835   arg[13] = -log
+19:40:28.106369   arg[14] = -logpath
+19:40:28.106369   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:40:28.106369 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:40:28.109242 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+19:40:28.109242 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:40:28.109242 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3295452283[0m
+19:40:28.109242 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3295452283\sketch[0m
+19:40:28.109242 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2519820945[0m
+19:40:28.109890 IN Elapsed: 0s
+19:40:28.109890 [92mIDE --> LS REQU initialize 0[0m
+19:40:28.111485 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:40:28.112021 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:40:28.112021 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:40:28.112021 [96mINIT --- : [93mread-locked[0m[0m
+19:40:28.112021 [96mINIT --- : [93mread-unlocked[0m[0m
+19:40:28.112704 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:40:28.113276 [32mIDE <-- LS RESP initialize 0[0m
+19:40:28.113276 OUT Elapsed: 0s
+19:40:28.115411 IN Elapsed: 2.1351ms
+19:40:28.115411 [92mIDE --> LS NOTIF initialized[0m
+19:40:28.115411 [92m                 initialized: Notification is not propagated to clangd[0m
+19:40:28.115936 IN Elapsed: 525.3µs
+19:40:28.115936 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:40:28.115936 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:40:28.115936 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:40:28.115936 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:40:28.424035 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server2519820945",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:40:28.428592 [96mINIT --- : build stdout:[0m
+19:40:28.428592 [96mINIT --- : [0m
+19:40:28.428592 [96mINIT --- : build stderr:[0m
+19:40:28.428592 [96mINIT --- : [0m
+19:40:28.428592 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2519820945 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:40:28.428592 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:40:28.428592 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:40:28.509205 Language server launched with arguments:
+19:40:28.509205   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:40:28.509205   arg[1] = -clangd
+19:40:28.509205   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:40:28.509205   arg[3] = -cli-daemon-addr
+19:40:28.509205   arg[4] = localhost:1026
+19:40:28.509205   arg[5] = -cli-daemon-instance
+19:40:28.509205   arg[6] = 1
+19:40:28.509205   arg[7] = -fqbn
+19:40:28.509205   arg[8] = arduino:avr:mega:cpu=atmega2560
+19:40:28.509205   arg[9] = -skip-libraries-discovery-on-rebuild
+19:40:28.509205   arg[10] = -board-name
+19:40:28.509205   arg[11] = "Arduino Mega or Mega 2560"
+19:40:28.509205   arg[12] = -no-real-time-diagnostics
+19:40:28.509205   arg[13] = -log
+19:40:28.509205   arg[14] = -logpath
+19:40:28.509205   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:40:28.509205 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:40:28.513217 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+19:40:28.513217 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:40:28.513217 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2079259245[0m
+19:40:28.513217 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2079259245\sketch[0m
+19:40:28.513217 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3591905993[0m
+19:40:28.513761 IN Elapsed: 543.1µs
+19:40:28.513827 [92mIDE --> LS REQU initialize 0[0m
+19:40:28.515078 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:40:28.515593 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:40:28.515593 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:40:28.516143 [96mINIT --- : [93mread-locked[0m[0m
+19:40:28.516143 [96mINIT --- : [93mread-unlocked[0m[0m
+19:40:28.516382 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:40:28.516382 [32mIDE <-- LS RESP initialize 0[0m
+19:40:28.516978 OUT Elapsed: 83µs
+19:40:28.519301 IN Elapsed: 2.3232ms
+19:40:28.519301 [92mIDE --> LS NOTIF initialized[0m
+19:40:28.519301 [92m                 initialized: Notification is not propagated to clangd[0m
+19:40:28.519301 IN Elapsed: 0s
+19:40:28.519301 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:40:28.519925 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:40:28.519925 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:40:28.519925 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:40:28.830256 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server3591905993",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:40:28.834692 [96mINIT --- : build stdout:[0m
+19:40:28.835235 [96mINIT --- : [0m
+19:40:28.835235 [96mINIT --- : build stderr:[0m
+19:40:28.835235 [96mINIT --- : [0m
+19:40:28.835235 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3591905993 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:40:28.835235 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:40:28.835235 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:40:28.922886 Language server launched with arguments:
+19:40:28.922886   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:40:28.922886   arg[1] = -clangd
+19:40:28.922886   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:40:28.922886   arg[3] = -cli-daemon-addr
+19:40:28.922886   arg[4] = localhost:1026
+19:40:28.922886   arg[5] = -cli-daemon-instance
+19:40:28.922886   arg[6] = 1
+19:40:28.922886   arg[7] = -fqbn
+19:40:28.922886   arg[8] = arduino:avr:mega:cpu=atmega2560
+19:40:28.922886   arg[9] = -skip-libraries-discovery-on-rebuild
+19:40:28.922886   arg[10] = -board-name
+19:40:28.922886   arg[11] = "Arduino Mega or Mega 2560"
+19:40:28.922886   arg[12] = -no-real-time-diagnostics
+19:40:28.922886   arg[13] = -log
+19:40:28.922886   arg[14] = -logpath
+19:40:28.922886   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:40:28.923437 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:40:28.926609 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+19:40:28.927164 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:40:28.927164 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server161057848[0m
+19:40:28.927164 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server161057848\sketch[0m
+19:40:28.927164 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1003148253[0m
+19:40:28.927164 IN Elapsed: 0s
+19:40:28.927865 [92mIDE --> LS REQU initialize 0[0m
+19:40:28.928982 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:40:28.929524 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:40:28.929524 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:40:28.930212 [96mINIT --- : [93mread-locked[0m[0m
+19:40:28.930212 [96mINIT --- : [93mread-unlocked[0m[0m
+19:40:28.930724 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:40:28.930724 [32mIDE <-- LS RESP initialize 0[0m
+19:40:28.930724 OUT Elapsed: 0s
+19:40:28.932353 IN Elapsed: 1.629ms
+19:40:28.932904 [92mIDE --> LS NOTIF initialized[0m
+19:40:28.932904 [92m                 initialized: Notification is not propagated to clangd[0m
+19:40:28.932904 IN Elapsed: 0s
+19:40:28.932904 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:40:28.932904 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:40:28.932904 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:40:28.932904 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:40:29.239276 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server1003148253",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:40:29.244252 [96mINIT --- : build stdout:[0m
+19:40:29.244252 [96mINIT --- : [0m
+19:40:29.244252 [96mINIT --- : build stderr:[0m
+19:40:29.244252 [96mINIT --- : [0m
+19:40:29.244252 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1003148253 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:40:29.244252 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:40:29.244252 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:41:19.744837 Language server launched with arguments:
+19:41:19.744837   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:41:19.744837   arg[1] = -clangd
+19:41:19.744837   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:41:19.744837   arg[3] = -cli-daemon-addr
+19:41:19.744837   arg[4] = localhost:1026
+19:41:19.744837   arg[5] = -cli-daemon-instance
+19:41:19.745376   arg[6] = 1
+19:41:19.745376   arg[7] = -fqbn
+19:41:19.745376   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+19:41:19.745376   arg[9] = -skip-libraries-discovery-on-rebuild
+19:41:19.745376   arg[10] = -board-name
+19:41:19.745376   arg[11] = "ESP32 Dev Module"
+19:41:19.745376   arg[12] = -no-real-time-diagnostics
+19:41:19.745376   arg[13] = -log
+19:41:19.745376   arg[14] = -logpath
+19:41:19.745376   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:41:19.745376 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:41:19.749615 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+19:41:19.749615 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:41:19.749615 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server754260568[0m
+19:41:19.749615 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server754260568\sketch[0m
+19:41:19.749615 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1931721997[0m
+19:41:19.750287 IN Elapsed: 160.1µs
+19:41:19.750287 [92mIDE --> LS REQU initialize 0[0m
+19:41:19.751458 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:41:19.751996 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:41:19.752536 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:41:19.752536 [96mINIT --- : [93mread-locked[0m[0m
+19:41:19.752536 [96mINIT --- : [93mread-unlocked[0m[0m
+19:41:19.753130 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:41:19.753130 [32mIDE <-- LS RESP initialize 0[0m
+19:41:19.753130 OUT Elapsed: 0s
+19:41:19.755795 IN Elapsed: 2.6648ms
+19:41:19.755795 [92mIDE --> LS NOTIF initialized[0m
+19:41:19.755795 [92m                 initialized: Notification is not propagated to clangd[0m
+19:41:19.755795 IN Elapsed: 0s
+19:41:19.755795 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:41:19.756335 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:41:19.756335 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:41:19.756335 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:41:20.056728 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server1931721997",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:41:20.063040 [96mINIT --- : build stdout:[0m
+19:41:20.063040 [96mINIT --- : [0m
+19:41:20.063040 [96mINIT --- : build stderr:[0m
+19:41:20.063040 [96mINIT --- : [0m
+19:41:20.063040 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1931721997 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:41:20.063040 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:41:20.063040 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:41:20.158574 Language server launched with arguments:
+19:41:20.158574   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:41:20.159110   arg[1] = -clangd
+19:41:20.159110   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:41:20.159110   arg[3] = -cli-daemon-addr
+19:41:20.159110   arg[4] = localhost:1026
+19:41:20.159110   arg[5] = -cli-daemon-instance
+19:41:20.159110   arg[6] = 1
+19:41:20.159110   arg[7] = -fqbn
+19:41:20.159110   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+19:41:20.159110   arg[9] = -skip-libraries-discovery-on-rebuild
+19:41:20.159110   arg[10] = -board-name
+19:41:20.159110   arg[11] = "ESP32 Dev Module"
+19:41:20.159110   arg[12] = -no-real-time-diagnostics
+19:41:20.159110   arg[13] = -log
+19:41:20.159110   arg[14] = -logpath
+19:41:20.159110   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:41:20.159110 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:41:20.163559 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+19:41:20.163559 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:41:20.163559 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2880226699[0m
+19:41:20.163559 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2880226699\sketch[0m
+19:41:20.163559 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4197692005[0m
+19:41:20.165680 IN Elapsed: 510.2µs
+19:41:20.165680 [92mIDE --> LS REQU initialize 0[0m
+19:41:20.166832 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:41:20.167343 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:41:20.167343 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:41:20.167343 [96mINIT --- : [93mread-locked[0m[0m
+19:41:20.167343 [96mINIT --- : [93mread-unlocked[0m[0m
+19:41:20.168469 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:41:20.168469 [32mIDE <-- LS RESP initialize 0[0m
+19:41:20.168469 OUT Elapsed: 0s
+19:41:20.170591 IN Elapsed: 2.1219ms
+19:41:20.170591 [92mIDE --> LS NOTIF initialized[0m
+19:41:20.170591 [92m                 initialized: Notification is not propagated to clangd[0m
+19:41:20.170591 IN Elapsed: 0s
+19:41:20.171129 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:41:20.171129 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:41:20.171129 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:41:20.171129 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:41:20.480495 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server4197692005",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:41:20.485080 [96mINIT --- : build stdout:[0m
+19:41:20.485080 [96mINIT --- : [0m
+19:41:20.485080 [96mINIT --- : build stderr:[0m
+19:41:20.485605 [96mINIT --- : [0m
+19:41:20.485605 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4197692005 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:41:20.485605 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:41:20.485605 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:41:20.584705 Language server launched with arguments:
+19:41:20.584705   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:41:20.584705   arg[1] = -clangd
+19:41:20.584705   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:41:20.584705   arg[3] = -cli-daemon-addr
+19:41:20.584705   arg[4] = localhost:1026
+19:41:20.584705   arg[5] = -cli-daemon-instance
+19:41:20.584705   arg[6] = 1
+19:41:20.584705   arg[7] = -fqbn
+19:41:20.584705   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+19:41:20.584705   arg[9] = -skip-libraries-discovery-on-rebuild
+19:41:20.584705   arg[10] = -board-name
+19:41:20.584705   arg[11] = "ESP32 Dev Module"
+19:41:20.584705   arg[12] = -no-real-time-diagnostics
+19:41:20.584705   arg[13] = -log
+19:41:20.584705   arg[14] = -logpath
+19:41:20.584705   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:41:20.584705 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:41:20.587934 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+19:41:20.587934 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:41:20.587934 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4222950367[0m
+19:41:20.587934 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4222950367\sketch[0m
+19:41:20.587934 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2565408612[0m
+19:41:20.588472 IN Elapsed: 0s
+19:41:20.589007 [92mIDE --> LS REQU initialize 0[0m
+19:41:20.590434 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:41:20.592005 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:41:20.592585 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:41:20.593098 [96mINIT --- : [93mread-locked[0m[0m
+19:41:20.593098 [96mINIT --- : [93mread-unlocked[0m[0m
+19:41:20.595119 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:41:20.595119 [32mIDE <-- LS RESP initialize 0[0m
+19:41:20.596120 OUT Elapsed: 0s
+19:41:20.599634 IN Elapsed: 3.514ms
+19:41:20.600178 [92mIDE --> LS NOTIF initialized[0m
+19:41:20.600178 [92m                 initialized: Notification is not propagated to clangd[0m
+19:41:20.600178 IN Elapsed: 0s
+19:41:20.600178 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:41:20.600905 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:41:20.600905 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:41:20.600905 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:41:20.905744 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server2565408612",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:41:20.911217 [96mINIT --- : build stdout:[0m
+19:41:20.911217 [96mINIT --- : [0m
+19:41:20.911217 [96mINIT --- : build stderr:[0m
+19:41:20.911217 [96mINIT --- : [0m
+19:41:20.911217 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2565408612 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:41:20.911217 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:41:20.911217 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:41:21.007211 Language server launched with arguments:
+19:41:21.007211   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:41:21.007211   arg[1] = -clangd
+19:41:21.007211   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:41:21.007211   arg[3] = -cli-daemon-addr
+19:41:21.007211   arg[4] = localhost:1026
+19:41:21.007211   arg[5] = -cli-daemon-instance
+19:41:21.007211   arg[6] = 1
+19:41:21.007211   arg[7] = -fqbn
+19:41:21.007211   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+19:41:21.007211   arg[9] = -skip-libraries-discovery-on-rebuild
+19:41:21.007211   arg[10] = -board-name
+19:41:21.007211   arg[11] = "ESP32 Dev Module"
+19:41:21.007211   arg[12] = -no-real-time-diagnostics
+19:41:21.007211   arg[13] = -log
+19:41:21.007211   arg[14] = -logpath
+19:41:21.007211   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:41:21.007211 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:41:21.011397 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+19:41:21.011397 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:41:21.011397 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1542489178[0m
+19:41:21.011397 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1542489178\sketch[0m
+19:41:21.011397 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1268937031[0m
+19:41:21.012771 IN Elapsed: 575.3µs
+19:41:21.012771 [92mIDE --> LS REQU initialize 0[0m
+19:41:21.014637 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:41:21.015339 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:41:21.016149 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:41:21.016149 [96mINIT --- : [93mread-locked[0m[0m
+19:41:21.016149 [96mINIT --- : [93mread-unlocked[0m[0m
+19:41:21.016711 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:41:21.016711 [32mIDE <-- LS RESP initialize 0[0m
+19:41:21.016711 OUT Elapsed: 0s
+19:41:21.019904 IN Elapsed: 3.1932ms
+19:41:21.019904 [92mIDE --> LS NOTIF initialized[0m
+19:41:21.019904 [92m                 initialized: Notification is not propagated to clangd[0m
+19:41:21.019904 IN Elapsed: 0s
+19:41:21.020434 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:41:21.020434 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:41:21.020434 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:41:21.020434 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:41:21.329657 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server1268937031",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:41:21.335757 [96mINIT --- : build stdout:[0m
+19:41:21.335757 [96mINIT --- : [0m
+19:41:21.335757 [96mINIT --- : build stderr:[0m
+19:41:21.335757 [96mINIT --- : [0m
+19:41:21.335757 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1268937031 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:41:21.335757 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:41:21.335757 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+19:41:21.445524 Language server launched with arguments:
+19:41:21.445524   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+19:41:21.445524   arg[1] = -clangd
+19:41:21.445524   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+19:41:21.446061   arg[3] = -cli-daemon-addr
+19:41:21.446061   arg[4] = localhost:1026
+19:41:21.446061   arg[5] = -cli-daemon-instance
+19:41:21.446061   arg[6] = 1
+19:41:21.446061   arg[7] = -fqbn
+19:41:21.446061   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+19:41:21.446061   arg[9] = -skip-libraries-discovery-on-rebuild
+19:41:21.446061   arg[10] = -board-name
+19:41:21.446061   arg[11] = "ESP32 Dev Module"
+19:41:21.446061   arg[12] = -no-real-time-diagnostics
+19:41:21.446061   arg[13] = -log
+19:41:21.446061   arg[14] = -logpath
+19:41:21.446061   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+19:41:21.446061 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+19:41:21.451543 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+19:41:21.451543 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+19:41:21.451543 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4287385698[0m
+19:41:21.451543 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4287385698\sketch[0m
+19:41:21.451543 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3743189186[0m
+19:41:21.452178 IN Elapsed: 0s
+19:41:21.452178 [92mIDE --> LS REQU initialize 0[0m
+19:41:21.454903 [92m                initialize 0: [93mwrite-locked[0m[0m
+19:41:21.455440 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+19:41:21.455440 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+19:41:21.455440 [96mINIT --- : [93mread-locked[0m[0m
+19:41:21.455440 [96mINIT --- : [93mread-unlocked[0m[0m
+19:41:21.455969 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+19:41:21.455969 [32mIDE <-- LS RESP initialize 0[0m
+19:41:21.456512 OUT Elapsed: 0s
+19:41:21.460380 IN Elapsed: 3.8674ms
+19:41:21.461222 [92mIDE --> LS NOTIF initialized[0m
+19:41:21.461222 [92m                 initialized: Notification is not propagated to clangd[0m
+19:41:21.461222 IN Elapsed: 0s
+19:41:21.461222 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+19:41:21.461222 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+19:41:21.461222 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+19:41:21.461787 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+19:41:21.771682 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server3743189186",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+19:41:21.776713 [96mINIT --- : build stdout:[0m
+19:41:21.776713 [96mINIT --- : [0m
+19:41:21.776713 [96mINIT --- : build stderr:[0m
+19:41:21.776713 [96mINIT --- : [0m
+19:41:21.776713 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3743189186 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+19:41:21.776713 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+19:41:21.776713 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+21:46:32.659931 Language server launched with arguments:
+21:46:32.659931   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:46:32.659931   arg[1] = -clangd
+21:46:32.659931   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:46:32.659931   arg[3] = -cli-daemon-addr
+21:46:32.659931   arg[4] = localhost:1026
+21:46:32.659931   arg[5] = -cli-daemon-instance
+21:46:32.659931   arg[6] = 1
+21:46:32.659931   arg[7] = -fqbn
+21:46:32.659931   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+21:46:32.659931   arg[9] = -skip-libraries-discovery-on-rebuild
+21:46:32.659931   arg[10] = -board-name
+21:46:32.659931   arg[11] = "ESP32 Dev Module"
+21:46:32.659931   arg[12] = -no-real-time-diagnostics
+21:46:32.659931   arg[13] = -log
+21:46:32.659931   arg[14] = -logpath
+21:46:32.659931   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+21:46:32.659931 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+21:46:32.664933 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+21:46:32.664933 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:46:32.664933 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2107955588[0m
+21:46:32.664933 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2107955588\sketch[0m
+21:46:32.664933 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2864459303[0m
+21:46:32.665365 IN Elapsed: 0s
+21:46:32.666208 [92mIDE --> LS REQU initialize 0[0m
+21:46:32.668149 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:46:32.669297 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:46:32.670003 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+21:46:32.670003 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:46:32.670515 [32mIDE <-- LS RESP initialize 0[0m
+21:46:32.670515 [96mINIT --- : [93mread-locked[0m[0m
+21:46:32.672539 [96mINIT --- : [93mread-unlocked[0m[0m
+21:46:32.672539 OUT Elapsed: 2.0237ms
+21:46:32.683061 IN Elapsed: 9.5241ms
+21:46:32.683061 [92mIDE --> LS NOTIF initialized[0m
+21:46:32.683061 [92m                 initialized: Notification is not propagated to clangd[0m
+21:46:32.683061 IN Elapsed: 0s
+21:46:32.683061 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:46:32.684078 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:46:32.684078 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:46:32.684078 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:46:32.985818 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server2864459303",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:46:32.990866 [96mINIT --- : build stdout:[0m
+21:46:32.990866 [96mINIT --- : [0m
+21:46:32.990866 [96mINIT --- : build stderr:[0m
+21:46:32.990866 [96mINIT --- : [0m
+21:46:32.990866 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2864459303 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+21:46:32.990866 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:46:32.990866 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+21:46:33.136466 Language server launched with arguments:
+21:46:33.136466   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:46:33.136466   arg[1] = -clangd
+21:46:33.136466   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:46:33.136466   arg[3] = -cli-daemon-addr
+21:46:33.136466   arg[4] = localhost:1026
+21:46:33.136466   arg[5] = -cli-daemon-instance
+21:46:33.136466   arg[6] = 1
+21:46:33.136466   arg[7] = -fqbn
+21:46:33.136466   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+21:46:33.136466   arg[9] = -skip-libraries-discovery-on-rebuild
+21:46:33.136466   arg[10] = -board-name
+21:46:33.136466   arg[11] = "ESP32 Dev Module"
+21:46:33.136466   arg[12] = -no-real-time-diagnostics
+21:46:33.136466   arg[13] = -log
+21:46:33.136466   arg[14] = -logpath
+21:46:33.136466   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+21:46:33.136466 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+21:46:33.141743 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+21:46:33.142254 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:46:33.142254 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3157921015[0m
+21:46:33.142254 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3157921015\sketch[0m
+21:46:33.142254 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4085401424[0m
+21:46:33.144355 IN Elapsed: 515.2µs
+21:46:33.144355 [92mIDE --> LS REQU initialize 0[0m
+21:46:33.145817 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:46:33.146834 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:46:33.147832 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:46:33.147832 [32mIDE <-- LS RESP initialize 0[0m
+21:46:33.147832 OUT Elapsed: 0s
+21:46:33.150771 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+21:46:33.150771 [96mINIT --- : [93mread-locked[0m[0m
+21:46:33.150771 [96mINIT --- : [93mread-unlocked[0m[0m
+21:46:33.153411 IN Elapsed: 5.5781ms
+21:46:33.154415 [92mIDE --> LS NOTIF initialized[0m
+21:46:33.154415 [92m                 initialized: Notification is not propagated to clangd[0m
+21:46:33.154415 IN Elapsed: 0s
+21:46:33.154415 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:46:33.154415 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:46:33.154415 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:46:33.154415 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:46:33.469950 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server4085401424",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:46:33.473880 [96mINIT --- : build stdout:[0m
+21:46:33.474437 [96mINIT --- : [0m
+21:46:33.474437 [96mINIT --- : build stderr:[0m
+21:46:33.474437 [96mINIT --- : [0m
+21:46:33.474437 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4085401424 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+21:46:33.474437 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:46:33.474437 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+21:46:33.571218 Language server launched with arguments:
+21:46:33.571218   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:46:33.571218   arg[1] = -clangd
+21:46:33.571218   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:46:33.571218   arg[3] = -cli-daemon-addr
+21:46:33.571218   arg[4] = localhost:1026
+21:46:33.571218   arg[5] = -cli-daemon-instance
+21:46:33.571218   arg[6] = 1
+21:46:33.571218   arg[7] = -fqbn
+21:46:33.571218   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+21:46:33.571218   arg[9] = -skip-libraries-discovery-on-rebuild
+21:46:33.571218   arg[10] = -board-name
+21:46:33.571218   arg[11] = "ESP32 Dev Module"
+21:46:33.571218   arg[12] = -no-real-time-diagnostics
+21:46:33.571218   arg[13] = -log
+21:46:33.571218   arg[14] = -logpath
+21:46:33.571218   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+21:46:33.571218 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+21:46:33.575994 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+21:46:33.575994 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:46:33.575994 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2792541986[0m
+21:46:33.575994 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2792541986\sketch[0m
+21:46:33.575994 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server798164361[0m
+21:46:33.577127 IN Elapsed: 0s
+21:46:33.577638 [92mIDE --> LS REQU initialize 0[0m
+21:46:33.579468 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:46:33.579979 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:46:33.580672 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+21:46:33.580672 [96mINIT --- : [93mread-locked[0m[0m
+21:46:33.580672 [96mINIT --- : [93mread-unlocked[0m[0m
+21:46:33.581268 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:46:33.581268 [32mIDE <-- LS RESP initialize 0[0m
+21:46:33.581268 OUT Elapsed: 0s
+21:46:33.585269 IN Elapsed: 4.0009ms
+21:46:33.585269 [92mIDE --> LS NOTIF initialized[0m
+21:46:33.585269 [92m                 initialized: Notification is not propagated to clangd[0m
+21:46:33.585269 IN Elapsed: 0s
+21:46:33.586290 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:46:33.586290 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:46:33.586290 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:46:33.586290 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:46:33.896972 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server798164361",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:46:33.904522 [96mINIT --- : build stdout:[0m
+21:46:33.904522 [96mINIT --- : [0m
+21:46:33.904522 [96mINIT --- : build stderr:[0m
+21:46:33.904522 [96mINIT --- : [0m
+21:46:33.904522 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server798164361 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+21:46:33.904522 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:46:33.904522 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+21:46:34.007491 Language server launched with arguments:
+21:46:34.007491   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:46:34.007491   arg[1] = -clangd
+21:46:34.007491   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:46:34.007491   arg[3] = -cli-daemon-addr
+21:46:34.007491   arg[4] = localhost:1026
+21:46:34.007491   arg[5] = -cli-daemon-instance
+21:46:34.007491   arg[6] = 1
+21:46:34.007491   arg[7] = -fqbn
+21:46:34.007491   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+21:46:34.007491   arg[9] = -skip-libraries-discovery-on-rebuild
+21:46:34.007491   arg[10] = -board-name
+21:46:34.007491   arg[11] = "ESP32 Dev Module"
+21:46:34.007491   arg[12] = -no-real-time-diagnostics
+21:46:34.007491   arg[13] = -log
+21:46:34.007491   arg[14] = -logpath
+21:46:34.007491   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+21:46:34.007491 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+21:46:34.011738 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+21:46:34.011738 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:46:34.011738 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server396522137[0m
+21:46:34.011738 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server396522137\sketch[0m
+21:46:34.011738 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3755907238[0m
+21:46:34.012728 IN Elapsed: 477.3µs
+21:46:34.012728 [92mIDE --> LS REQU initialize 0[0m
+21:46:34.015001 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:46:34.015514 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:46:34.015514 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+21:46:34.015514 [96mINIT --- : [93mread-locked[0m[0m
+21:46:34.015514 [96mINIT --- : [93mread-unlocked[0m[0m
+21:46:34.016106 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:46:34.016106 [32mIDE <-- LS RESP initialize 0[0m
+21:46:34.016614 OUT Elapsed: 0s
+21:46:34.019586 IN Elapsed: 2.972ms
+21:46:34.019586 [92mIDE --> LS NOTIF initialized[0m
+21:46:34.019586 [92m                 initialized: Notification is not propagated to clangd[0m
+21:46:34.019586 IN Elapsed: 0s
+21:46:34.020357 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:46:34.020357 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:46:34.020357 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:46:34.020357 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:46:34.325161 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server3755907238",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:46:34.335401 [96mINIT --- : build stdout:[0m
+21:46:34.335401 [96mINIT --- : [0m
+21:46:34.335401 [96mINIT --- : build stderr:[0m
+21:46:34.335401 [96mINIT --- : [0m
+21:46:34.335401 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3755907238 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+21:46:34.335401 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:46:34.335401 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+21:46:34.440187 Language server launched with arguments:
+21:46:34.440187   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:46:34.440187   arg[1] = -clangd
+21:46:34.440187   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:46:34.440187   arg[3] = -cli-daemon-addr
+21:46:34.440187   arg[4] = localhost:1026
+21:46:34.440187   arg[5] = -cli-daemon-instance
+21:46:34.440187   arg[6] = 1
+21:46:34.440187   arg[7] = -fqbn
+21:46:34.440187   arg[8] = esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none
+21:46:34.440187   arg[9] = -skip-libraries-discovery-on-rebuild
+21:46:34.440187   arg[10] = -board-name
+21:46:34.440187   arg[11] = "ESP32 Dev Module"
+21:46:34.440187   arg[12] = -no-real-time-diagnostics
+21:46:34.440187   arg[13] = -log
+21:46:34.440187   arg[14] = -logpath
+21:46:34.440187   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+21:46:34.440187 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+21:46:34.443933 [97mLS: : Initial board configuration: esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none[0m
+21:46:34.444446 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:46:34.444446 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1855701245[0m
+21:46:34.444446 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1855701245\sketch[0m
+21:46:34.444446 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server36795473[0m
+21:46:34.444715 IN Elapsed: 0s
+21:46:34.444715 [92mIDE --> LS REQU initialize 0[0m
+21:46:34.447855 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:46:34.447855 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:46:34.449856 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:46:34.449856 [32mIDE <-- LS RESP initialize 0[0m
+21:46:34.450855 OUT Elapsed: 0s
+21:46:34.452968 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+21:46:34.452968 [96mINIT --- : [93mread-locked[0m[0m
+21:46:34.452968 [96mINIT --- : [93mread-unlocked[0m[0m
+21:46:34.454176 IN Elapsed: 3.3206ms
+21:46:34.454176 [92mIDE --> LS NOTIF initialized[0m
+21:46:34.454176 [92m                 initialized: Notification is not propagated to clangd[0m
+21:46:34.454176 IN Elapsed: 0s
+21:46:34.454692 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:46:34.454692 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:46:34.455049 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:46:34.455049 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:46:34.766164 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server36795473",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:46:34.771215 [96mINIT --- : build stdout:[0m
+21:46:34.771215 [96mINIT --- : [0m
+21:46:34.771215 [96mINIT --- : build stderr:[0m
+21:46:34.771215 [96mINIT --- : [0m
+21:46:34.771215 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server36795473 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+21:46:34.771215 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:46:34.771215 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+01:18:12.608498 Language server launched with arguments:
+01:18:12.608498   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+01:18:12.608498   arg[1] = -clangd
+01:18:12.608498   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+01:18:12.608498   arg[3] = -cli-daemon-addr
+01:18:12.608498   arg[4] = localhost:1028
+01:18:12.608498   arg[5] = -cli-daemon-instance
+01:18:12.608498   arg[6] = 1
+01:18:12.608498   arg[7] = -fqbn
+01:18:12.608498   arg[8] = arduino:avr:mega:cpu=atmega2560
+01:18:12.608498   arg[9] = -skip-libraries-discovery-on-rebuild
+01:18:12.608498   arg[10] = -board-name
+01:18:12.608498   arg[11] = "Arduino Mega or Mega 2560"
+01:18:12.608498   arg[12] = -no-real-time-diagnostics
+01:18:12.608498   arg[13] = -log
+01:18:12.608498   arg[14] = -logpath
+01:18:12.608498   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+01:18:12.608498 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+01:18:12.612667 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+01:18:12.612667 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+01:18:12.612667 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4052299851[0m
+01:18:12.612667 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server4052299851\sketch[0m
+01:18:12.612667 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1686037904[0m
+01:18:12.615962 IN Elapsed: 1.0201ms
+01:18:12.615962 [92mIDE --> LS REQU initialize 0[0m
+01:18:12.622883 [92m                initialize 0: [93mwrite-locked[0m[0m
+01:18:12.623940 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+01:18:12.625354 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+01:18:12.625869 [32mIDE <-- LS RESP initialize 0[0m
+01:18:12.625869 OUT Elapsed: 0s
+01:18:12.625869 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+01:18:12.625869 [96mINIT --- : [93mread-locked[0m[0m
+01:18:12.625869 [96mINIT --- : [93mread-unlocked[0m[0m
+01:18:12.640490 IN Elapsed: 14.6209ms
+01:18:12.640490 [92mIDE --> LS NOTIF initialized[0m
+01:18:12.640490 [92m                 initialized: Notification is not propagated to clangd[0m
+01:18:12.640490 IN Elapsed: 0s
+01:18:12.640490 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+01:18:12.640490 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+01:18:12.640490 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+01:18:12.640490 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+01:18:12.941956 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server1686037904",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+01:18:12.948477 [96mINIT --- : build stdout:[0m
+01:18:12.948477 [96mINIT --- : [0m
+01:18:12.948477 [96mINIT --- : build stderr:[0m
+01:18:12.948477 [96mINIT --- : [0m
+01:18:12.948477 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1686037904 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+01:18:12.948477 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+01:18:12.948477 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+01:18:13.102612 Language server launched with arguments:
+01:18:13.102612   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+01:18:13.102612   arg[1] = -clangd
+01:18:13.102612   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+01:18:13.102612   arg[3] = -cli-daemon-addr
+01:18:13.102612   arg[4] = localhost:1028
+01:18:13.102612   arg[5] = -cli-daemon-instance
+01:18:13.102612   arg[6] = 1
+01:18:13.102612   arg[7] = -fqbn
+01:18:13.102612   arg[8] = arduino:avr:mega:cpu=atmega2560
+01:18:13.102612   arg[9] = -skip-libraries-discovery-on-rebuild
+01:18:13.102612   arg[10] = -board-name
+01:18:13.102612   arg[11] = "Arduino Mega or Mega 2560"
+01:18:13.102612   arg[12] = -no-real-time-diagnostics
+01:18:13.102612   arg[13] = -log
+01:18:13.102612   arg[14] = -logpath
+01:18:13.102612   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+01:18:13.102612 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+01:18:13.106141 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+01:18:13.106141 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+01:18:13.106141 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2757121258[0m
+01:18:13.106141 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2757121258\sketch[0m
+01:18:13.106141 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2248937380[0m
+01:18:13.112013 IN Elapsed: 0s
+01:18:13.112527 [92mIDE --> LS REQU initialize 0[0m
+01:18:13.115542 [92m                initialize 0: [93mwrite-locked[0m[0m
+01:18:13.115542 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+01:18:13.118546 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+01:18:13.118546 [32mIDE <-- LS RESP initialize 0[0m
+01:18:13.119545 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+01:18:13.119545 [96mINIT --- : [93mread-locked[0m[0m
+01:18:13.119545 [96mINIT --- : [93mread-unlocked[0m[0m
+01:18:13.119545 OUT Elapsed: 0s
+01:18:13.124786 IN Elapsed: 5.2406ms
+01:18:13.124786 [92mIDE --> LS NOTIF initialized[0m
+01:18:13.124786 [92m                 initialized: Notification is not propagated to clangd[0m
+01:18:13.124786 IN Elapsed: 0s
+01:18:13.125297 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+01:18:13.125297 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+01:18:13.125297 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+01:18:13.125297 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+01:18:13.431570 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server2248937380",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+01:18:13.436681 [96mINIT --- : build stdout:[0m
+01:18:13.437219 [96mINIT --- : [0m
+01:18:13.437219 [96mINIT --- : build stderr:[0m
+01:18:13.437219 [96mINIT --- : [0m
+01:18:13.437219 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server2248937380 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+01:18:13.437219 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+01:18:13.437219 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+01:18:13.530804 Language server launched with arguments:
+01:18:13.530804   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+01:18:13.530804   arg[1] = -clangd
+01:18:13.530804   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+01:18:13.530804   arg[3] = -cli-daemon-addr
+01:18:13.530804   arg[4] = localhost:1028
+01:18:13.530804   arg[5] = -cli-daemon-instance
+01:18:13.530804   arg[6] = 1
+01:18:13.530804   arg[7] = -fqbn
+01:18:13.530804   arg[8] = arduino:avr:mega:cpu=atmega2560
+01:18:13.530804   arg[9] = -skip-libraries-discovery-on-rebuild
+01:18:13.530804   arg[10] = -board-name
+01:18:13.530804   arg[11] = "Arduino Mega or Mega 2560"
+01:18:13.530804   arg[12] = -no-real-time-diagnostics
+01:18:13.530804   arg[13] = -log
+01:18:13.530804   arg[14] = -logpath
+01:18:13.530804   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+01:18:13.530804 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+01:18:13.534838 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+01:18:13.534838 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+01:18:13.534838 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3953322593[0m
+01:18:13.534838 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server3953322593\sketch[0m
+01:18:13.535351 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server602780441[0m
+01:18:13.535509 IN Elapsed: 0s
+01:18:13.536974 [92mIDE --> LS REQU initialize 0[0m
+01:18:13.538017 [92m                initialize 0: [93mwrite-locked[0m[0m
+01:18:13.538556 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+01:18:13.538556 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+01:18:13.539092 [96mINIT --- : [93mread-locked[0m[0m
+01:18:13.539092 [96mINIT --- : [93mread-unlocked[0m[0m
+01:18:13.539365 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+01:18:13.539365 [32mIDE <-- LS RESP initialize 0[0m
+01:18:13.539875 OUT Elapsed: 510.4µs
+01:18:13.542616 IN Elapsed: 2.7407ms
+01:18:13.542616 [92mIDE --> LS NOTIF initialized[0m
+01:18:13.543234 [92m                 initialized: Notification is not propagated to clangd[0m
+01:18:13.543234 IN Elapsed: 0s
+01:18:13.543234 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+01:18:13.543750 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+01:18:13.543750 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+01:18:13.543750 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+01:18:13.852769 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server602780441",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+01:18:13.857880 [96mINIT --- : build stdout:[0m
+01:18:13.857880 [96mINIT --- : [0m
+01:18:13.857880 [96mINIT --- : build stderr:[0m
+01:18:13.857880 [96mINIT --- : [0m
+01:18:13.857880 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server602780441 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+01:18:13.857880 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+01:18:13.857880 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+01:18:13.936878 Language server launched with arguments:
+01:18:13.936878   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+01:18:13.936878   arg[1] = -clangd
+01:18:13.937405   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+01:18:13.937405   arg[3] = -cli-daemon-addr
+01:18:13.937405   arg[4] = localhost:1028
+01:18:13.937405   arg[5] = -cli-daemon-instance
+01:18:13.937405   arg[6] = 1
+01:18:13.937405   arg[7] = -fqbn
+01:18:13.937405   arg[8] = arduino:avr:mega:cpu=atmega2560
+01:18:13.937405   arg[9] = -skip-libraries-discovery-on-rebuild
+01:18:13.937405   arg[10] = -board-name
+01:18:13.937405   arg[11] = "Arduino Mega or Mega 2560"
+01:18:13.937405   arg[12] = -no-real-time-diagnostics
+01:18:13.937405   arg[13] = -log
+01:18:13.937405   arg[14] = -logpath
+01:18:13.937405   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+01:18:13.937405 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+01:18:13.940100 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+01:18:13.940100 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+01:18:13.940100 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1640994144[0m
+01:18:13.940100 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1640994144\sketch[0m
+01:18:13.940100 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1737196301[0m
+01:18:13.940801 IN Elapsed: 0s
+01:18:13.940801 [92mIDE --> LS REQU initialize 0[0m
+01:18:13.942003 [92m                initialize 0: [93mwrite-locked[0m[0m
+01:18:13.942544 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+01:18:13.943086 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+01:18:13.943086 [96mINIT --- : [93mread-locked[0m[0m
+01:18:13.943086 [96mINIT --- : [93mread-unlocked[0m[0m
+01:18:13.943635 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+01:18:13.943635 [32mIDE <-- LS RESP initialize 0[0m
+01:18:13.943635 OUT Elapsed: 0s
+01:18:13.946128 IN Elapsed: 2.4925ms
+01:18:13.946128 [92mIDE --> LS NOTIF initialized[0m
+01:18:13.946128 [92m                 initialized: Notification is not propagated to clangd[0m
+01:18:13.946128 IN Elapsed: 0s
+01:18:13.946128 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+01:18:13.946128 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+01:18:13.947146 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+01:18:13.947146 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+01:18:14.260214 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server1737196301",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+01:18:14.265423 [96mINIT --- : build stdout:[0m
+01:18:14.265423 [96mINIT --- : [0m
+01:18:14.265423 [96mINIT --- : build stderr:[0m
+01:18:14.265423 [96mINIT --- : [0m
+01:18:14.265423 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1737196301 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+01:18:14.265423 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+01:18:14.265423 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
+
+
+
+
+
+
+
+Started logging.
+01:18:14.358301 Language server launched with arguments:
+01:18:14.358301   arg[0] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+01:18:14.358301   arg[1] = -clangd
+01:18:14.358301   arg[2] = c:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+01:18:14.358301   arg[3] = -cli-daemon-addr
+01:18:14.358301   arg[4] = localhost:1028
+01:18:14.358301   arg[5] = -cli-daemon-instance
+01:18:14.358301   arg[6] = 1
+01:18:14.358301   arg[7] = -fqbn
+01:18:14.358301   arg[8] = arduino:avr:mega:cpu=atmega2560
+01:18:14.358301   arg[9] = -skip-libraries-discovery-on-rebuild
+01:18:14.358301   arg[10] = -board-name
+01:18:14.358301   arg[11] = "Arduino Mega or Mega 2560"
+01:18:14.358301   arg[12] = -no-real-time-diagnostics
+01:18:14.358301   arg[13] = -log
+01:18:14.358301   arg[14] = -logpath
+01:18:14.358301   arg[15] = d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW
+01:18:14.358301 logging to d:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW\inols.log
+01:18:14.362202 [97mLS: : Initial board configuration: arduino:avr:mega:cpu=atmega2560[0m
+01:18:14.362202 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+01:18:14.362202 [97mLS: : Language server build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1818938814[0m
+01:18:14.362202 [97mLS: : Language server build sketch root: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server1818938814\sketch[0m
+01:18:14.362202 [97mLS: : Language server FULL build path: C:\Users\lmidr\AppData\Local\Temp\arduino-language-server638056270[0m
+01:18:14.362738 IN Elapsed: 536.2µs
+01:18:14.362738 [92mIDE --> LS REQU initialize 0[0m
+01:18:14.364375 [92m                initialize 0: [93mwrite-locked[0m[0m
+01:18:14.364996 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+01:18:14.364996 [96mINIT --- : initializing workbench: file:///d%3A/USM/USEROS2023/Arduino/Joystick-ESP32-NEW[0m
+01:18:14.365587 [96mINIT --- : [93mread-locked[0m[0m
+01:18:14.365587 [96mINIT --- : [93mread-unlocked[0m[0m
+01:18:14.366096 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+01:18:14.366096 [32mIDE <-- LS RESP initialize 0[0m
+01:18:14.366096 OUT Elapsed: 0s
+01:18:14.368451 IN Elapsed: 2.3544ms
+01:18:14.369743 [92mIDE --> LS NOTIF initialized[0m
+01:18:14.370414 [92m                 initialized: Notification is not propagated to clangd[0m
+01:18:14.370414 IN Elapsed: 0s
+01:18:14.370414 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+01:18:14.370926 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+01:18:14.370926 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+01:18:14.371101 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+01:18:14.681973 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "sketch_path": "D:\\USM\\USEROS2023\\Arduino\\Joystick-ESP32-NEW",
+  "build_path": "C:\\Users\\lmidr\\AppData\\Local\\Temp\\arduino-language-server638056270",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+01:18:14.687958 [96mINIT --- : build stdout:[0m
+01:18:14.688668 [96mINIT --- : [0m
+01:18:14.688668 [96mINIT --- : build stderr:[0m
+01:18:14.689178 [96mINIT --- : [0m
+01:18:14.689446 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\lmidr\AppData\Local\Temp\arduino-language-server638056270 relative to D:\USM\USEROS2023\Arduino\Joystick-ESP32-NEW[0m
+01:18:14.689446 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+01:18:14.689446 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
